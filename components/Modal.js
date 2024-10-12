@@ -71,7 +71,7 @@ const Modal = ({ project, onClose }) => {
             {project?.githubLink !== "" && (
               <button className="px-6 py-3 bg-secondary text-white rounded-full shadow-lg hover:bg-primary transition-colors duration-300">
                 <a
-                  href={project.liveLink}
+                  href={project.githubLink}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
