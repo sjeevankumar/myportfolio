@@ -51,7 +51,7 @@ const Portfolio = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Image
+              <img
                 src={project.image}
                 alt={project.title}
                 width={400}
