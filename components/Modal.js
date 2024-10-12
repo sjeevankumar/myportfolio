@@ -1,9 +1,8 @@
 "use client"
 
 import { motion } from "framer-motion"
-import Image from "next/image"
-import { FaTimes } from "react-icons/fa"
 import { useEffect } from "react"
+import { FaTimes } from "react-icons/fa"
 
 const Modal = ({ project, onClose }) => {
   // Close modal on ESC key press
@@ -40,7 +39,7 @@ const Modal = ({ project, onClose }) => {
         >
           <FaTimes size={24} />
         </button>
-        <Image
+        <img
           src={project.image}
           alt={`${project.title} Image`}
           width={800}
